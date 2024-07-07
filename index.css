@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    background-image: url("https://wallpapers.com/images/hd/nature-blur-background-1wwddxvxqhn622tl.jpg");
+    background-size:cover;
+    font-family: poppins;
+    font-weight: bold;
+    text-align: center;
+    height:100vh;
+}
+
+#main{
+    border: 5px solid white;
+    border-radius: 10px;
+    max-width:50%;
+    margin:auto;
+}
+
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    font-family: poppins;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin:20px;
+    border-radius: 10px;
+}
+
+#increment-btn {
+    background: rgb(9, 206, 130);
+}
+
+#save-btn {
+    background: rgb(44, 154, 158);
+}
